@@ -1,0 +1,193 @@
+body{
+	background-color: #E1D016;
+	font-family:  sans-serif;
+	font-size: 12px;
+}
+.row{
+	clear: both;
+}
+.cell{
+	float: left;
+	width: 60%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.cell2{
+	float: left;
+	width: 40%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.container{
+	position: relative;
+	background-color: white;
+	width: 70%;
+	height: 800px;
+	max-width: 100%;
+	margin: 100px auto 0 auto;
+	padding: 10px ;
+	border-radius: 10px;
+
+}
+p{
+	font-size: 1em;	
+	color: #ADADAC;
+}
+h1{
+	font-size: 1.5em;
+	letter-spacing: 1.5px;
+	margin: 0px;
+	text-align: center;
+	padding-top: 90px;
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+h2{
+	font-size: 1.3em; 
+	font-weight: 500;
+	color: #E1D016;
+	text-transform: uppercase;
+}
+h4{
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #ADADAC; 
+}
+.container .perfil{
+	position: absolute;
+	left: 40%;
+	top: -60px;
+	clear: both;
+}
+.container .perfil .yo{
+	max-width: 120px;
+	border-radius: 90px;
+	border: 5px solid #E1D016;
+}
+.yellow{
+	color: #E1D016;
+}
+.container .line{
+	border-top: solid 1px #E1D016;
+	width: 90%;
+	margin: 0px auto 0px auto;
+}
+.contacto ul{
+	margin: 0px;
+}
+.contacto ul li{
+	padding: 2px 0px 2px 0px;
+}
+.container .educacion h3{
+	float: left;
+	padding-right: 10px;
+	margin: 0px;
+}
+.container .educacion p{
+	float: left;
+	width: 480px;
+	max-width: 90%;
+	background-color: #FBF7C9;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.container .experiencia h3{
+	float: left;
+	padding-right: 10px;
+	margin: 0px;
+}
+.container .experiencia p{
+	float: left;
+	width: 480px;
+	max-width: 90%;
+	border-radius: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.container .skill{
+	background-color: #E1D016;
+	padding: 5px;
+	margin-top: 10px;
+	color: white;
+}
+.container .html{
+	width: 60%;
+}
+.container .css{
+	width: 40%;
+}
+.container .git{
+	width: 20%;
+}
+.container .javascript{
+	width: 5%;
+}
+.container .idioma{
+	height: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px
+}
+.idioma h4{
+	float: left;
+	margin: 0px;
+	padding-right: auto;
+	width: 30%;
+}
+.container .idioma .stars{
+	font-size: 1.2em;
+	float: left;
+	color: #E1D016;
+}
+.container .foto{
+	float: left;
+	background-color: #E1D016;
+	padding: 10px;
+
+}
+.container .deporte{
+	float: left;
+	background-color: #E1D016;
+	padding: 10px;
+	margin-left: 10px;
+}
+.container .cine{
+	float: left;
+	background-color: #E1D016;
+	padding: 10px;
+	margin-left: 10px;
+}
+@media (max-width: 800px){
+	.container{
+		width: 90%;
+		padding: 0px;
+		height: 900px;
+	}
+	.cell{
+		width: 50%;
+	}
+	.cell2{
+		width: 50%;
+	}
+}
+@media (max-width: 480px){
+	body{
+		margin: 0px;
+	}
+	.container{
+		width: 100%;
+		border-radius: 0px;
+		height: 1400px;
+	}
+	.cell{
+		width: 100%;
+	}
+	.cell2{
+		width: 100%;
+	}
+}
