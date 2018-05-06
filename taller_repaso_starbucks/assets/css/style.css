@@ -1,3 +1,31 @@
+body{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+h3{
+	color: white;
+	font-size: 1em;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+h2{
+	font-size: 1.5em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+h6{
+	font-size: .6em;
+	color: #a3a3a3;
+}
+.my_button{
+	border: 1px solid white;
+	color: white;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
 /*NavBar*/
 .my_navbar{
 	background-color: #eaeaea;
@@ -15,3 +43,135 @@
 .navbar-nav>li>a{
 	padding-top: 30px;
 }
+
+/*Section Experiencia*/
+.experiencia{
+	background-image: url(../img/banner1.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 400px;
+	padding-top: 8%;
+}
+.experiencia .info_interior{
+	background-color: rgba(0, 0, 0, .7);
+	width: 500px;
+	max-width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+}
+.experiencia .info_interior h2{
+	
+}
+.experiencia .info_interior .icon_star{
+	font-size: 1.5em;
+	color: white;
+	padding: 5px;
+}
+.experiencia .info_interior h3{
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+@media (max-width: 768px){
+	.experiencia{
+		padding-top: 20%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+/*Section Registrate*/
+.registrate{
+	background-image: url(../img/stars2.png);
+	background-size: cover;
+	height: 400px;
+	padding-top: 8%;
+}
+.registrate .info_interior{
+	background-color: rgba(0, 0, 0, .7);
+	width: 500px;
+	max-width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 50px;
+	text-align: center;
+}
+.icon_like{
+	font-size: 1.5em;
+	color: white;
+	padding: 5px;
+}
+@media (max-width: 768px){
+	.registrate{
+		padding-top: 20%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.registrate .info_interior{
+		float: none;
+	}
+}
+/*Section Sabores*/
+.sabores{
+	background-image: url(../img/beans.png);
+	background-size: cover;
+	height: 400px;
+	padding-top: 8%;
+}
+.sabores .info_interior{
+	background-color: rgba(0, 0, 0, .7);
+	width: 500px;
+	max-width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 50px;
+	text-align: center;
+}
+.icon_heart{
+	font-size: 1.5em;
+	color: white;
+	padding: 5px;
+}
+@media (max-width: 768px){
+	.sabores{
+		padding-top: 20%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.sabores .info_interior{
+		float: none;
+	}
+}
+/*Footer*/
+.footer{
+	text-align: center;
+	background-color: #ededed;
+}
+.footer .fa-facebook-f{
+	padding: 40px 10px;
+	font-size: 1.2em;
+}
+.footer .fa-twitter{
+	padding: 40px 10px;
+	font-size: 1.2em;
+}
+.footer .logo_footer{
+	max-width: 45px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
