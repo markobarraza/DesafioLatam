@@ -32,6 +32,8 @@ h6{
 	border-radius: 0px;
 	border-top: 8px solid #126242;
 	margin: 0;
+	position: fixed;
+	width: 100%;
 }
 .my_navbar .navbar-brand{
 	height: 0;
